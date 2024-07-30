@@ -1,0 +1,7 @@
+streamlit>=1.13.0
+python-dotenv>=0.19.2
+Pillow>=9.0.1
+SpeechRecognition>=3.8.1
+gtts>=2.2.3
+pytesseract>=0.3.8
+google-generativeai>=0.7.2

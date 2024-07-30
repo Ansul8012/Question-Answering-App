@@ -35,7 +35,7 @@ def add_bg_from_local(image_file):
         st.error("Background image file not found. Please check the file path and try again.")
 
 # Call this function at the beginning of your script
-add_bg_from_local('Assets/Machine-Learning copy.jpg')  # Replace with the path to your background image
+add_bg_from_local('Machine-Learning copy.jpg')  # Replace with the path to your background image
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -127,7 +127,7 @@ def show_text_input_page():
     st.sidebar.markdown("<h3 style='text-align: center;'>ABOUT THE DEVELOPER</h3>", unsafe_allow_html=True)
     
     # Improved error handling for loading the image
-    image_path = "Assets/Ansul copy.jpg"  # Use a relative path if the image is within the project directory
+    image_path = "Ansul copy.jpg"  # Use a relative path if the image is within the project directory
     if os.path.exists(image_path):
         st.sidebar.image(image_path, width=150, caption="Ansul Singh", use_column_width='always')
     else:
@@ -192,7 +192,7 @@ def show_image_input_page():
     st.sidebar.markdown("<h3 style='text-align: center;'>ABOUT THE DEVELOPER</h3>", unsafe_allow_html=True)
     
     # Improved error handling for loading the image
-    image_path = "Assets/Ansul copy.jpg"  # Use a relative path if the image is within the project directory
+    image_path = "Ansul copy.jpg"  # Use a relative path if the image is within the project directory
     if os.path.exists(image_path):
         st.sidebar.image(image_path, width=150, caption="Ansul Singh", use_column_width='always')
     else:
